@@ -7,7 +7,7 @@ let app = express();
 //    console.log('get res params',res.params)
 // })
 
-app.post('push', (req,res) => {
+app.post('/push', (req,res) => {
   console.log('-----req:',req)
   console.log('-----res:',res)
  
